@@ -1,0 +1,74 @@
+*{
+    box-sizing:border-box;
+
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#d9e4dd;
+    
+
+    margin:0;
+    align-items:center;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+}
+
+.quiz-container{
+    background-color:#fff5ea;
+    border-radius:10px;
+    width:600px;
+    max-width:100%;
+    box-shadow: 0 0 12px 5px rgba(0, 0, 0, 0.2); 
+    overflow:hidden;
+}
+
+
+.quiz-content{
+    padding:1.6rem;
+}
+
+
+
+button{
+    background-color:#28abb9;
+    color:white;
+    display:block;
+    font-family:inherit;
+    
+    width:100%;
+    padding:1rem;
+    cursor:pointer;
+    border:none;
+    font-size:1.3rem;
+}
+
+button:hover{
+    background-color:#01c5c4;
+}
+ul{
+    margin:0;
+    list-style-type: none;
+    
+}
+ul li{
+    
+    padding: 0.7rem 0;
+    font-size:1rem;
+}
+
+ul li label{
+    cursor: pointer;
+}
+h2{
+
+    padding-left : 2.7rem;
+    font-size:1.7rem;
+   
+}
+
+button:focus{
+    background-color:#01c5c4;
+    outline:none;
+}
